@@ -1,8 +1,8 @@
 version: '3'
 services: 
-  aiko-server: 
-    image: aikocute/aikocutehotme:latest
+  Zrayr: 
+    image: kutycma/kutycma:latest
     volumes:
-      - ./config:/etc/Aiko-Server/
+      - ./config:/etc/Zrayr/
     restart: always
     network_mode: host
