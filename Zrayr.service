@@ -1,5 +1,5 @@
 [Unit]
-Description=Aiko-Server Service
+Description=Zrayr Service
 After=network.target nss-lookup.target
 Wants=network.target
 
@@ -11,8 +11,8 @@ LimitAS=infinity
 LimitRSS=infinity
 LimitCORE=infinity
 LimitNOFILE=999999
-WorkingDirectory=/usr/local/Aiko-Server/
-ExecStart=/usr/local/Aiko-Server/Aiko-Server --config /etc/Aiko-Server/aiko.yml
+WorkingDirectory=/usr/local/Zrayr/
+ExecStart=/usr/local/Zrayr/Zrayr --config /etc/Zrayr/zicboard.yml
 Restart=on-failure
 RestartSec=10
 
